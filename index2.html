@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manage — Build Better Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- MOBILE OVERLAY -->
+<div class="mobile-overlay" id="mobileOverlay" onclick="closeMobile()">
+  <div class="mobile-menu" onclick="event.stopPropagation()">
+    <div class="mobile-nav-header">
+      <a href="#" class="logo">
+        <span class="logo-dots"><span></span><span></span><span></span><span></span></span>
+        manage
+      </a>
+      <button class="close-btn" onclick="closeMobile()">&#x2715;</button>
+    </div>
+    <ul>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Community</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <span class="logo-dots"><span></span><span></span><span></span><span></span></span>
+    manage
+  </a>
+  <ul class="nav-links">
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Product</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">Community</a></li>
+  </ul>
+  <a href="#" class="btn">Get Started</a>
+  <button class="hamburger" onclick="openMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Bring everyone together to build better products.</h1>
+    <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+
+  <div class="hero-visuals">
+    <div class="card-visual">
+      <div class="bar-chart">
+        <div class="bar red" style="height:45px"></div>
+        <div class="bar navy" style="height:70px"></div>
+        <div class="bar red" style="height:35px"></div>
+        <div class="bar navy" style="height:60px"></div>
+        <div class="bar red" style="height:50px"></div>
+        <div class="bar navy" style="height:80px"></div>
+      </div>
+    </div>
+    <div class="card-visual">
+      <svg class="donut" viewBox="0 0 80 80">
+        <circle cx="40" cy="40" r="30" fill="none" stroke="#1D2B4E" stroke-width="14"/>
+        <circle cx="40" cy="40" r="30" fill="none" stroke="#F3603C" stroke-width="14"
+          stroke-dasharray="56 132" stroke-dashoffset="33" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="card-visual stat-card">
+      <span class="stat-pct">89.74%</span>
+      <span class="stat-badge">+1.5%</span>
+      <span class="stat-sub">88.24%</span>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="features-left">
+    <h2>What's different about Manage?</h2>
+    <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+  </div>
+  <div class="features-right">
+    <div class="feature-item">
+      <span class="feature-num">01</span>
+      <div class="feature-body">
+        <h3>Track company-wide progress</h3>
+        <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-num">02</span>
+      <div class="feature-body">
+        <h3>Advanced built-in reports</h3>
+        <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-num">03</span>
+      <div class="feature-body">
+        <h3>Everything you need in one place</h3>
+        <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>What they've said</h2>
+  <div class="slider-wrapper">
+    <div class="slider-track" id="sliderTrack">
+
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/60?img=47" alt="Anisha Li" />
+        <h4>Anisha Li</h4>
+        <p>"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/60?img=5" alt="Ali Bravo" />
+        <h4>Ali Bravo</h4>
+        <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/60?img=68" alt="Richard Watts" />
+        <h4>Richard Watts</h4>
+        <p>"Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to!"</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/60?img=35" alt="Shanai Gough" />
+        <h4>Shanai Gough</h4>
+        <p>"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="dots" id="dots">
+    <button class="dot active" onclick="goTo(0)"></button>
+    <button class="dot" onclick="goTo(1)"></button>
+    <button class="dot" onclick="goTo(2)"></button>
+    <button class="dot" onclick="goTo(3)"></button>
+  </div>
+
+  <a href="#" class="btn">Get Started</a>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <h2>Simplify how your team works today.</h2>
+  <a href="#" class="btn outline">Get Started</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="#" class="footer-logo">
+        <span class="logo-dots footer-dots"><span></span><span></span><span></span><span></span></span>
+        manage
+      </a>
+      <div class="social-icons">
+        <a href="#">f</a>
+        <a href="#">y</a>
+        <a href="#">t</a>
+        <a href="#">p</a>
+        <a href="#">i</a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-newsletter">
+      <div class="newsletter-form">
+        <input type="email" id="emailInput" placeholder="Updates in your inbox…" />
+        <button class="btn" onclick="handleNewsletter()">Go</button>
+      </div>
+      <p class="error-msg" id="errorMsg">Please insert a valid email</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright 2020. All Rights Reserved</p>
+  </div>
+</footer>
+
+<script>
+  function openMobile() {
+    document.getElementById('mobileOverlay').style.display = 'block';
+  }
+  function closeMobile() {
+    document.getElementById('mobileOverlay').style.display = 'none';
+  }
+
+  let current = 0;
+  const total = 4;
+
+  function goTo(idx) {
+    current = idx;
+    const track = document.getElementById('sliderTrack');
+    const cards = track.querySelectorAll('.testimonial-card');
+    const cardW = cards[0].offsetWidth + 24;
+    track.style.transform = `translateX(-${current * cardW}px)`;
+    document.querySelectorAll('.dot').forEach((d, i) => {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  setInterval(() => { goTo((current + 1) % total); }, 5000);
+
+  function handleNewsletter() {
+    const input = document.getElementById('emailInput');
+    const error = document.getElementById('errorMsg');
+    const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value);
+    if (!valid) {
+      input.classList.add('error');
+      error.style.display = 'block';
+    } else {
+      input.classList.remove('error');
+      error.style.display = 'none';
+      alert('Thank you for subscribing!');
+      input.value = '';
+    }
+  }
+</script>
+</body>
+</html>
